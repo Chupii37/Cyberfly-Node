@@ -25,7 +25,7 @@ fi
 
 # Prompt user for Kadena wallet address and private key
 read -p "Enter your Kadena wallet address: " your_kadena_wallet_address
-read -sp "Enter your node private key: " node_priv_key
+read -p "Enter your node private key: " node_priv_key
 echo
 
 # Clone the repository and navigate to the directory
